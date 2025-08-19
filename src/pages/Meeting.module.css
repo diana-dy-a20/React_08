@@ -1,0 +1,17 @@
+.tittle {
+	font-size: 30px;
+	font-weight: 700;
+	color: #008402;
+}
+.items {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.text {
+	background-color: #00bebe33;
+	padding: 15px 10px;
+	border-radius: 4px;
+	font-weight: 600;
+	color: #005c5c;
+}

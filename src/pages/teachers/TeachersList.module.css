@@ -1,0 +1,35 @@
+.tittle {
+	font-size: 30px;
+	font-weight: 700;
+	color: #008402;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+.buttons button {
+	transition: background-color 0.4s;
+}
+.buttons button:first-child:hover {
+	background-color: #008402;
+	transition: background-color 0.4s;
+}
+.buttons button:last-child {
+	background-color: #009dff;
+}
+.buttons button:last-child:hover {
+	background-color: #0072ba;
+	transition: background-color 0.4s;
+}
+
+.items {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	width: 100%;
+	align-items: center;
+}

@@ -1,0 +1,29 @@
+.tittle {
+	font-size: 40px;
+	font-weight: 700;
+	color: #008402;
+}
+
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons a {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	border-radius: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background-color 0.4s;
+}
+
+.buttons a:hover {
+	background-color: #008402;
+	transition: background-color 0.4s;
+}

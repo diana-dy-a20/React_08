@@ -1,0 +1,9 @@
+.container {
+	padding-block: 30px;
+}
+.container h1 {
+	font-size: 30px;
+	font-weight: 700;
+	color: #008402;
+	margin-bottom: 40px;
+}
